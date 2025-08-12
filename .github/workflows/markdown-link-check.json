@@ -1,10 +1,10 @@
 {
-  "aliveStatusCodes": [0, 200, 429],
+  "aliveStatusCodes": [0, 200, 403, 429],
   "httpHeaders": [
     {
       "urls": ["http"],
       "headers": {
-        "User-Agent": "Chrome/124.0.0.0"
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:141.0) Gecko/20100101 Firefox/141.0"
       }
     }
   ]
