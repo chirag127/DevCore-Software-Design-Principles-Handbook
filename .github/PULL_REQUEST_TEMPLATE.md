@@ -1,34 +1,69 @@
 # Pull Request Template
 
-**Important:** Please ensure your pull request adheres to the following guidelines before submitting.
+**Please provide a clear and concise description of your changes.**
 
-## 1. Pull Request Checklist
+---
 
-*   [ ] I have read and understood the contributing guidelines.
-*   [ ] My changes address a specific issue or feature documented in the project roadmap.
-*   [ ] My code follows the project's coding standards and best practices.
-*   [ ] I have added/updated relevant tests for my changes.
-*   [ ] All new and existing tests pass.
-*   [ ] I have updated the documentation (if applicable).
-*   [ ] My changes do not introduce breaking changes or regressions.
-*   [ ] I have provided a clear and concise description of my changes.
 
-## 2. Description of Changes
+## Type of Change
 
-<!-- Please provide a detailed explanation of the changes you are proposing. -->
-<!-- Include the problem statement, your solution, and any potential impacts. -->
-<!-- If this PR relates to an issue, please reference it using `closes #issue_number` or `fixes #issue_number`. -->
+*   [ ] Bug fix (non-breaking change which fixes an issue)
+*   [ ] New feature (non-breaking change which adds functionality)
+*   [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+*   [ ] Refactoring (code style changes, reorganizing code, etc.)
+*   [ ] Documentation Update
+*   [ ] Performance Improvement
+*   [ ] Other (please specify):
 
-## 3. Architecture and Design
+---
 
-<!-- Briefly describe any architectural or design considerations relevant to this PR. -->
-<!-- For significant changes, please refer to the `AGENTS.md` for architectural principles. -->
 
-## 4. Testing
+## Description
 
-<!-- Describe the testing strategy employed for these changes. -->
-<!-- This includes unit tests, integration tests, and any manual verification steps. -->
+[Provide a brief summary of the changes introduced in this pull request. What problem does it solve? What new functionality does it add?]
 
-## 5. Related Issues
+---
 
-<!-- Link to any related issues here. -->
+
+## Motivation / Context
+
+[Explain why these changes are necessary. Link to relevant issues or discussions if applicable.]
+
+---
+
+
+## How Has This Been Tested?
+
+*   [ ] Unit Tests (via Pytest)
+*   [ ] Integration Tests
+*   [ ] Manual Testing
+*   [ ] No tests needed (please explain why)
+
+[Describe the tests you ran to verify your changes. Provide instructions on how to reproduce them.]
+
+---
+
+
+## Checklist
+
+*   [ ] My code follows the code style of this project.
+*   [ ] I have performed a self-review of my own code.
+*   [ ] I have commented my code, particularly in hard-to-understand areas.
+*   [ ] I have made corresponding changes to the documentation (if applicable).
+*   [ ] My changes generate no new warnings or errors.
+*   [ ] I have updated unit tests that prove my fix is effective or that my feature works.
+*   [ ] Any dependent changes have been merged and published.
+
+---
+
+
+## Related Issues
+
+[Link to any issues that this pull request resolves or relates to, e.g., `Closes #123`]
+
+---
+
+
+## Developer Notes
+
+[Add any additional information that may be helpful to the reviewer. This could include screenshots, specific areas to focus on, or known limitations.]
