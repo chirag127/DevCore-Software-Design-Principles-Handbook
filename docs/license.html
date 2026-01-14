@@ -1,0 +1,128 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="License information for DevCore: Software Design Principles Handbook.">
+  <title>License - DevCore Handbook</title>
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          backdropBlur: {
+            xs: '2px',
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            primary: '#0F172A',
+            accent: '#3B82F6',
+            glass: 'rgba(255, 255, 255, 0.08)',
+          },
+          boxShadow: {
+            glass: '0 8px 32px rgba(31, 38, 135, 0.1)',
+          },
+        },
+      },
+    };
+  </script>
+
+  <!-- Google Fonts: Inter -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon.ico">
+</head>
+
+<body class="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white min-h-screen flex flex-col">
+  <!-- Header -->
+  <header class="py-6 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-5xl mx-auto flex justify-between items-center">
+      <a href="../index.html" class="flex items-center space-x-2 group">
+        <span class="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+          🚀 DevCore
+        </span>
+      </a>
+      <nav class="hidden md:flex space-x-6">
+        <a href="../index.html" class="text-sm font-medium hover:text-blue-400 transition">Home</a>
+        <a href="about.html" class="text-sm font-medium hover:text-blue-400 transition">About</a>
+        <a href="contact.html" class="text-sm font-medium hover:text-blue-400 transition">Contact</a>
+        <a href="license.html" class="text-sm font-medium text-blue-400 border-b-2 border-blue-400">License</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-grow py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto">
+      <!-- Glassmorphism Card -->
+      <div class="bg-glass backdrop-blur-md rounded-2xl shadow-glass p-8 sm:p-10 mb-10 border border-slate-700">
+        <h1 class="text-3xl sm:text-4xl font-bold mb-6 bg-gradient-to-r from-blue-300 to-purple-300 bg-clip-text text-transparent">
+          📄 License
+        </h1>
+
+        <p class="text-slate-300 text-lg mb-6 leading-relaxed">
+          This project, <strong>DevCore: Software Design Principles Handbook</strong>, is open-source and distributed under the 
+          <span class="text-blue-400">MIT License</span>. You are free to use, modify, and distribute this content, provided you include 
+          proper attribution to the original author.
+        </p>
+
+        <div class="bg-slate-800/70 border border-slate-600 rounded-xl p-6 mb-6">
+          <h2 class="text-xl font-semibold text-white mb-4">MIT License</h2>
+          <pre class="text-sm text-slate-300 leading-relaxed overflow-auto">
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+          </pre>
+        </div>
+
+        <p class="text-slate-300 text-lg mb-2">
+          🛡️ <strong>Copyright Notice:</strong>
+        </p>
+        <p class="text-slate-400 text-base mb-6">
+          Copyright (c) 2026 Chirag Singhal
+        </p>
+
+        <p class="text-slate-300 text-lg mb-2">
+          🔗 <strong>Attribution Requirement:</strong>
+        </p>
+        <p class="text-slate-400 text-base mb-6">
+          When using or adapting content from this handbook, please credit:
+          <em>"DevCore: Software Design Principles Handbook by Chirag Singhal"</em>
+          and include a link to the original repository.
+        </p>
+
+        <div class="bg-blue-900/30 border border-blue-700 rounded-lg p-4 text-sm text-blue-200">
+          💡 <strong>Tip:</strong> This license applies to documentation, code examples, and design principles shared in this repository. 
+          Third-party libraries or assets may have their own licensing terms.
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center text-slate-500 text-sm border-t border-slate-700 bg-slate-800/20">
+    <p>Copyright (c) 2026 Chirag Singhal | Designed by Chirag Singhal</p>
+  </footer>
+</body>
+</html>
+```

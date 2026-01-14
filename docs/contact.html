@@ -1,0 +1,120 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | DevCore - Software Design Principles Handbook</title>
+  <meta name="description" content="Get in touch with Chirag Singhal, the author of DevCore: Software Design Principles Handbook. Reach out for collaborations, feedback, or inquiries about software engineering and design patterns.">
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Optional: Custom Tailwind Config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          backdropFilter: {
+            blur: 'blur(10px)',
+          },
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui'],
+          },
+          colors: {
+            primary: '#6D28D9',
+            glass: 'rgba(255, 255, 255, 0.08)',
+          },
+          boxShadow: {
+            glass: '0 8px 32px rgba(31, 38, 135, 0.15)',
+          },
+          border: {
+            glass: '1px solid rgba(255, 255, 255, 0.18)',
+          }
+        },
+      },
+    };
+  </script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+      color: #e2e8f0;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+  <!-- Navigation -->
+  <nav class="p-6 text-center">
+    <a href="index.html" class="text-2xl font-bold text-white hover:text-purple-300 transition">
+      🚀 DevCore: Software Design Principles Handbook
+    </a>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="flex-grow flex items-center justify-center px-4 py-12">
+    <div class="w-full max-w-lg">
+      <!-- Glassmorphism Card -->
+      <div class="bg-glass backdrop-filter backdrop-blur-lg rounded-2xl shadow-glass border border-glass p-8 text-center space-y-6 transform hover:scale-[1.01] transition">
+
+        <h1 class="text-3xl font-extrabold text-white">Get In Touch</h1>
+        <p class="text-lg text-gray-300">
+          Have questions, feedback, or want to collaborate? I'd love to hear from you!
+        </p>
+
+        <!-- Contact Info -->
+        <div class="space-y-4 text-left">
+          <div class="flex items-center space-x-3 text-gray-200">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+            <a href="mailto:chiragsinghal127@gmail.com" class="hover:text-purple-300 transition">
+              chiragsinghal127@gmail.com
+            </a>
+          </div>
+
+          <div class="flex items-center space-x-3 text-gray-200">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+            </svg>
+            <a href="https://github.com/chirag127" target="_blank" rel="noopener" class="hover:text-blue-300 transition">
+              GitHub (@chirag127)
+            </a>
+          </div>
+
+          <div class="flex items-center space-x-3 text-gray-200">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 14v7H4v-7a4 4 0 014-4z" />
+            </svg>
+            <a href="https://linkedin.com/in/chirag-singhal1" target="_blank" rel="noopener" class="hover:text-blue-500 transition">
+              LinkedIn (Chirag Singhal)
+            </a>
+          </div>
+
+          <div class="flex items-center space-x-3 text-gray-200">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-amber-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
+            </svg>
+            <a href="https://buymeacoffee.com/WhyIsWhen" target="_blank" rel="noopener" class="hover:text-amber-400 transition">
+              Buy Me a Coffee
+            </a>
+          </div>
+        </div>
+
+        <!-- Call to Action -->
+        <p class="text-sm text-gray-400 mt-4">
+          Whether you want to contribute to the handbook, report an issue, or just say hello — feel free to reach out!
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center text-gray-500 text-sm border-t border-gray-800 mt-auto">
+    <p>Copyright (c) 2026 Chirag Singhal | Designed by Chirag Singhal</p>
+  </footer>
+
+</body>
+</html>
+```
